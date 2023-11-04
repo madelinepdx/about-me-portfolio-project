@@ -1,0 +1,462 @@
+html {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    min-height: 100%;
+}
+.nav-container {
+    font-family: 'Candal', sans-serif;
+    justify-content: flex-end;
+    margin: auto;
+    display: flex;
+    max-width: 47rem;
+}
+
+.nav-bar li:nth-child(1) a {
+    color: #10cc96;
+    }
+
+.nav-bar li:nth-child(2) a {
+    color: #04b4ff;
+}
+
+.nav-bar li:nth-child(3) a {
+    color: #0469ff;
+}
+.nav-bar li:nth-child(4) a {
+    color: #f89880;
+}
+
+.nav-bar {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-bar li {
+    margin-left: 2rem;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Main Content */
+
+
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 47rem;
+    margin: auto;
+    font-family: 'Anonymous Pro';
+    position: relative;
+}
+
+.main {
+    position: relative;
+    width: 47rem;
+    height: 36.85rem;
+    flex: 0 0 auto;
+}
+
+.about-me-container {
+    display: flex;
+    margin-top: 6.5rem;
+    margin-right: 20rem
+}
+
+#about-me {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    font-size: 3.15rem; 
+    color: #10cc96;
+    font-family: 'Candal';
+    margin-left: 1rem;
+}
+
+.hello {
+    margin: 0;
+    line-height: 3.75rem;
+    margin-left: -.75rem;
+}
+
+.green-dash-frame {
+    width: calc(10rem + 18rem);
+    height: 3rem;
+    margin-top: -2rem;
+    margin-left: 0.25rem;
+}
+
+.madeline-container {
+    position: absolute;
+    top: 0;
+    left: 29.45rem; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.madeline {
+    width: 17.65rem;
+    height: 21.5rem;
+    object-fit: cover;
+}
+
+.paragraph {
+    position: relative;
+    width: 25.35rem;
+    height: 31.25rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 9rem;
+    margin-top: 1rem;
+}
+
+
+.paragraph-container1 {
+    width: 100%;
+    margin-block-start: 2.25rem;
+    margin-block-end: .1rem;
+    line-height: 1.25rem;
+}
+    
+.paragraph-container2 {
+    width: 100%;
+}
+
+/* Projects */
+
+.projects-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.projects-title {
+    position: relative; 
+    margin-top: -20.75rem; 
+    width: 100%;
+    text-align: center; 
+    font-size: 2.25rem;
+    color: #04b4ff;
+    font-family: 'Candal', sans-serif;
+    margin-bottom: 2.5rem;
+}
+
+#projects {
+    position: relative;
+    width: 11.1rem; 
+    height: 2.95rem;
+    flex: 0 0 auto;
+}
+
+.blue-dash-frame {
+    position: absolute;
+    top: 4.7rem; 
+    left: 1rem;
+    width: 44.05rem; 
+    height: 24.3rem; 
+}
+
+.projects-list {
+    display: flex;
+    justify-content: space-between; /* This will space out the projects evenly */
+    align-items: flex-end; /* Aligns items to the top */
+    width: 47rem;
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap: wrap;
+}
+
+.project-container {
+    width: 9.05rem; /* Width of each project */
+    height: 11.65rem; /* Height to be determined by content */
+    position: relative;
+    background-color: #fff;
+    margin: 0 3.55rem;
+    border: 0.2rem solid #04b4ff;
+}
+
+.project-container:last-child {
+    margin-right: 0;
+    margin-left: auto;
+}
+
+.project-container:first-child {
+    margin-left: 5.5rem;
+}
+
+.project-image {
+    width: 100%;
+    height: auto;
+    opacity: 0.45; /* Adjust transparency as needed */
+    transition: opacity 0.3s ease; /* Optional: for a fade effect on hover */
+    position: relative;
+}
+
+
+.project-container:hover .project-description {
+    display: flex;
+    opacity: 1; /* Make the description visible on hover */
+    background-color: #04B4FF;
+}
+
+.project-title {
+    position: relative;
+    text-align: center;
+    margin-top: -7.3rem;
+    font-size: 1.2rem;
+}
+
+.project-link {
+    text-decoration:line;
+    color: black;
+}
+
+.project-description {
+    bottom: 0;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    opacity: 1;
+    transition: opacity 0.3s ease;
+    text-align: center;
+    padding: .3rem;
+
+}
+
+.project-image:hover {
+    opacity: 0; /* Full opacity on hover */
+}
+
+.project-title:hover {
+    background-color: #fff;
+}
+
+.project-container:hover .project-image {
+    opacity: 0;
+}
+
+/* Skills */
+    
+.skills-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    font-family: 'Candal', sans-serif;
+    color: #0469ff;
+    padding-bottom: 5rem;
+}
+    
+#skills {
+    font-size: 2.25rem;
+    margin-right: 4.4rem;
+    margin-left: .25rem;
+    margin-top: .2rem;
+}
+
+.dark-blue-dash {
+    margin-left: -10.4rem;
+    margin-top: .3rem;
+}
+    
+.skills-items {
+    width: 46.81rem;
+    height: 3.69rem;
+    justify-content: flex-end;
+    text-align: center;
+    color: #0469ff;
+}
+    
+.html-vector-icon {
+    position: relative;
+    width: 1.74rem;
+    height: 1.87rem;
+}
+    
+.css-vector-icon {
+    position: relative;
+    width: 1.56rem;
+    height: 1.87rem;
+}
+    
+.js-vector-icon {
+    position: relative;
+    width: 1.74rem;
+    height: 1.87rem;
+    flex: 0 0 auto;
+}
+    
+.git-vector-icon {
+    position: relative;
+    width: 2.36rem;
+    height: 1.87rem;
+}
+    
+.group-icon {
+    position: relative;
+    width: 1.99rem;
+    height: 1.99rem;
+}
+    
+.chrome-vector {
+    width: 2.36rem;
+    height: 2.36rem;
+}
+    
+.figma-vector-icon {
+    position: relative;
+    width: 1.31rem;
+    height: 2.05rem;
+}
+    
+.github-vector-icon {
+    position: relative;
+    width: 2.3rem;
+    height: 1.99rem;
+    flex: 0 0 auto;
+}
+    
+.terminal-vector-icon {
+    position: relative;
+    width: 2.18rem;
+    height: 1.81rem;
+}
+    
+.node-vector-icon {
+    position: relative;
+    width: 3.17rem;
+    height: 1.93rem;
+}
+
+.html-vector-parent {
+    border: 0.15rem solid #0469ff;
+    box-sizing: border-box;
+    width: 35.65rem;
+    height: 3.55rem;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 0.75rem 1.25rem;
+}
+        
+
+/* Javascript */
+#project1-description, #project2-description, #project3-description {
+    background-color: #04b4ff;
+    color: #fff;
+    display: none; /* Start with it not displayed, it will be shown when a project is clicked */
+}
+
+
+/* Contact Page */
+
+.contact-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    top: 3rem;
+    margin-right: 20rem;
+}
+
+.icon-frames {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -2.5rem;
+}
+
+.contact-title {
+    font-size: 2.25rem;
+    font-family: Candal;
+    color: #feaf91;
+    margin-right: 9.5rem;
+}
+
+.pink-dash {
+    margin-top: -3.7rem;
+    margin-left: 1.2rem;
+
+}
+
+.rectangle-container {
+    position: relative;
+    text-align: center;
+}
+
+.pink-rectangle {
+    display: flex; /* Use flexbox to center children */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    margin: 0 auto;
+}
+
+.icon-frames p {
+    position: absolute;
+    font-size: 1.25rem;
+}
+
+.contact-icons {
+    display: flex;
+    flex-direction: row; /* Align children horizontally */
+    justify-content: center; /* Center children along the main axis */
+    align-items: center; /* Center children along the cross axis */
+    gap: .75rem;
+}
+
+.icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.linkedIn,
+.github-contact,
+.email {
+    width: 4rem;
+    height: auto;
+    margin-top: .25rem;
+}
+
+.linkedIn {
+    width: 4rem;  /* 2rem width */
+    height: 4rem; /* 2rem height */
+    margin-right: .45rem;
+}
+
+.github-contact {
+    width: 3rem;  /* 1.5rem width */
+    height: 3rem; /* 1.5rem height */
+    margin-right: .85rem;
+}
+
+.email {
+    width: 3.5rem; 
+    height: 3.5rem; /* 2.5rem height */
+}
+
+/* Footer */
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-family: 'Anonymous Pro', sans-serif;
+}
