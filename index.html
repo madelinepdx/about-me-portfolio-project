@@ -2,44 +2,45 @@
 <html>
 <head>
   	<meta charset="utf-8">
-  	<meta name="viewport" content="initial-scale=1, width=device-width">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
   	<link rel="stylesheet"  href="/styles.css"/>
   	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Candal:wght@400&display=swap" />
   	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anonymous Pro:ital,wght@0,400;0,700;1,400&display=swap" />
 </head>
 <body>
-    <nav class="nav-container">
-        <ul class="nav-bar">
+<div class="container">
+    <nav class="nav-bar">
+        <ul>
             <li><a href="#about-me">About Me</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#skills">Skills</a></li>
             <li><a href="/contact.html">Contact</a></li>
         </ul>
     </nav>
-<main class="main">
-        <div class="about-me-container">
+<main>
+    <div class="about-me-container">
             <section id="about-me">
                 <p class="hello">Hello,</p>
-                <p class="hello">&nbsp;&nbsp;&nbsp;I'm Madeline</p>
+                <p class="hello1">I'm Madeline</p>
                 <img class="green-dash-frame" alt="" src="images/Vector 2.png">
             </section>
-                <div class="madeline-container">
-                <img class="madeline" alt="" src="/images/madeline-1@2x.png">
-                </div>	
-                    <section class="paragraph">
-                        <p class="paragraph-container1">
-                                            I’m learning <b>Full-Stack Development</b>&nbsp;<br>with <i>Codecademy</i> to satisfy my</b>&nbsp;<br> creativity, curiosity, and love for</b>&nbsp;<br>languages.</p>
-                        <p class="paragraph-container2"> 
-                                            Check out what I’ve done so far:</p>
-                    </section>
-        </div>
+    <div class="madeline-container">
+        <img class="madeline" alt="photo of madeline" src="/images/madeline-1@2x.png">
+    </div>
+    </div>
+    <section class="paragraph">
+        <p class="paragraph-container1">
+            I’m learning <b>Full-Stack Development</b>&nbsp;<br>with <i>Codecademy</i> to satisfy my</b>&nbsp;<br> creativity, curiosity, and love for</b>&nbsp;<br>languages.</p>
+        <p class="paragraph-container2"> 
+        Click to see what I've done so far:</p>
+    </section>
+
                 
                   <!-- Projects Section-->
 <div class="projects-container">
-    <div class="projects-title">
         <section id="projects">Projects</section>
-    </div>
-    <img class="blue-dash-frame" alt="" src="images/frame.svg">
+            <img class="blue-dash-frame" src="images/frame.svg">
+</div>
     <section class="projects-list">
         <!-- Project 1 -->
         <div class="project-container" id="project1-container">
@@ -66,7 +67,6 @@
             <div id="project3-description" class="project-description"></div>
         </div>
     </section>
-</div>
 
                 <!-- Skills Section-->
                 
@@ -75,80 +75,49 @@
             <img class="dark-blue-dash" alt="" src="images/vector-3.svg">
       			<div class="skills-items">
         			<div class="html-vector-parent">
-          				<img class="html-vector-icon" alt="" src="images/html-vector.svg">
+          				<img class="html-vector-icon" alt="html" src="images/html-vector.svg">
           					
-          				<img class="css-vector-icon" alt="" src="images/css-vector.svg">
+          				<img class="css-vector-icon" alt="css" src="images/css-vector.svg">
           					
-          				<img class="js-vector-icon" alt="" src="images/js-vector.svg">
+          				<img class="js-vector-icon" alt="js" src="images/js-vector.svg">
           					
-          				<img class="git-vector-icon" alt="" src="images/git-vector.svg">
+          				<img class="git-vector-icon" alt="git" src="images/git-vector.svg">
           					
-            			<img class="group-icon" alt="" src="images/group.svg">
+            			<img class="group-icon" alt="chrome dev tools" src="images/group.svg">
             						
-          				<img class="figma-vector-icon" alt="" src="images/figma-vector.svg">
+          				<img class="figma-vector-icon" alt="figma" src="images/figma-vector.svg">
           					
-          				<img class="github-vector-icon" alt="" src="images/github-vector.svg"">
+          				<img class="github-vector-icon" alt="github" src="images/github-vector.svg">
           					
-          				<img class="terminal-vector-icon" alt="" src="images/terminal-vector.svg">
+          				<img class="terminal-vector-icon" alt="terminal" src="images/terminal-vector.svg">
           					
-          				<img class="node-vector-icon" alt="" src="images/node-vector.svg">
+          				<img class="node-vector-icon" alt="node" src="images/node-vector.svg">
         			</div>	
                 </div>	
     </div>
     </main>
-        <footer>Work in progress&nbsp;<span class="heart">♥&nbsp;November 2023</span></footer>         
-
+        <footer>Work in progress<span class="heart">&nbsp;♥&nbsp;</span>November 2023</footer>         
+</div>
 </body>
       <!-- JavaScript -->
       <script>
-        // Project 1:
-      var project1Container = document.getElementById('project1-container');
-      // Add mouseover event listener to the project container
-      project1Container.addEventListener('mouseover', function() {
-      // Get the description container
-      var descriptionContainer = document.getElementById('project1-description');
-      // Set the description text
-      descriptionContainer.innerText = 'Create a company home page using flexbox';
-      // Make the description container visible
-      descriptionContainer.style.display = 'block';
-      });
-  
-      // Add mouseout event listener to hide the description when not hovering
-      project1Container.addEventListener('mouseout', function() {
-      var descriptionContainer = document.getElementById('project1-description');
-      descriptionContainer.style.display = 'none';
-      });
-  
-      // Project 2:
-      var project2Container = document.getElementById('project2-container');
-  
-      // Add mouseover event listener to the project container
-      project2Container.addEventListener('mouseover', function() {
-      var descriptionContainer = document.getElementById('project2-description');
-      descriptionContainer.innerText = 'Making a Website Responsive';
-      descriptionContainer.style.display = 'block';
-      });
-  
-      // Add mouseout event listener to hide the description when not hovering
-      project2Container.addEventListener('mouseout', function() {
-      var descriptionContainer = document.getElementById('project2-description');
-      descriptionContainer.style.display = 'none';
-      });
-  
-      // Project 3:
-      var project3Container = document.getElementById('project3-container');
-  
-      // Add mouseover event listener to the project container
-      project3Container.addEventListener('mouseover', function() {
-      var descriptionContainer = document.getElementById('project3-description');
-      descriptionContainer.innerText = 'Build a message generator program using JavaScript';
-      descriptionContainer.style.display = 'block';
-      });
-  
-      // Add mouseout event listener to hide the description when not hovering
-      project3Container.addEventListener('mouseout', function() {
-      var descriptionContainer = document.getElementById('project3-description');
-      descriptionContainer.style.display = 'none';
-      });
+      function addProjectListeners(projectId, descriptionText) {
+        var projectContainer = document.getElementById(projectId + '-container');
+        var descriptionContainer = document.getElementById(projectId + '-description');
+      
+        projectContainer.addEventListener('mouseover', function() {
+          descriptionContainer.innerText = descriptionText;
+          descriptionContainer.style.display = 'block';
+        });
+      
+        projectContainer.addEventListener('mouseout', function() {
+          descriptionContainer.style.display = 'none';
+        });
+      }
+      
+      // Call the function for each project
+      addProjectListeners('project1', 'Create a company home page using flexbox');
+      addProjectListeners('project2', 'Making a Website Responsive');
+      addProjectListeners('project3', 'Build a message generator program using JavaScript');
 </script>
 </html>
