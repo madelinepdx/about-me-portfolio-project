@@ -1,5 +1,5 @@
 ## Portfolio Website
-Build a portfolio site to share projects, skills, as well as a separate contact page.
+Build a portfolio site to share your projects, skills, as well as a separate contact page.
 
 **Project Objectives:**
 - Build a website using HTML, CSS
