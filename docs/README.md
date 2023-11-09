@@ -8,12 +8,13 @@ Build a portfolio site to share projects, skills, as well as a separate contact 
 - Use the command line and file navigation
 - Develop locally on your computer
 - Deploy your site to the web using GitHub Pages
+- Draft the design beforehand using a wireframing software or pencil and pen
 
 **Prerequisites:**
--HTML/CSS
+- HTML/CSS
 - JavaScript
 - Git and GitHub
 - Command line and file navigation
 
-
 *Example (reference):* [Codecademy's example page](https://priceless-kepler-06d70c.netlify.app/)
+
