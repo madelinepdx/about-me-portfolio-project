@@ -703,14 +703,10 @@ main {
         text-align: center;
         margin-right: 0;
         padding-bottom: 2rem;
-        font-size: 1.5rem;
 
     }
     .pink-dash {
         display: none;
-    }
-    .rectangle-text-icons p {
-        font-size: 1rem;
     }
    }
 /* Footer */
