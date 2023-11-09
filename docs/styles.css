@@ -1,5 +1,6 @@
 html {
     margin: 0;
+    height: 100%;
 }
 
 body {
@@ -608,7 +609,7 @@ main {
     align-items: center;
     justify-content: flex-start;
     margin-top: 2rem;
-    margin-left: 8rem;
+    margin-left: 0;
 }
 
 .contact-dash {
@@ -631,29 +632,25 @@ main {
 
 .rectangle-text-icons {
     position: relative;
-    text-align: center;
-    margin-top: -3rem;
 }
 
 .pink-rectangle {
     position: relative;
     text-align: center;
+    margin-top: -3rem;
 }
 
 .rectangle-text-icons p {
     font-size: 1.25rem;
     position: absolute;
-    top: 10%;
-    left: 25%;
+    top: -37%;
+    left: 24%
 }
 
 .contact-icons {
     display: flex;
-    flex-direction: row; 
-    justify-content: center;
-    align-items: center; 
     gap: .75rem;
-    position: absolute;
+    align-items: center;
 }
 
 .linkedIn,
@@ -701,7 +698,7 @@ main {
     
     .contact-title {
         text-align: center;
-        margin-right: 0;
+        margin-right: 1rem;
         padding-bottom: 2rem;
 
     }
