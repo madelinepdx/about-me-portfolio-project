@@ -437,7 +437,7 @@ main {
 
   @media only screen and (max-width: 570px) {
     .nav-bar ul {
-      font-size: 1rem;
+      font-size: .75rem;
       gap: 2rem;
     }
 
@@ -480,10 +480,15 @@ main {
 
     #projects {
         margin-bottom: 5rem;
+        font-size: .75rem;
 
     }
     .blue-dash-frame {
         display: none;
+    }
+
+    #skills {
+        font-size: .75rem;
     }
 
     .skills-container {
@@ -703,11 +708,14 @@ main {
         text-align: center;
         margin-right: 0;
         padding-bottom: 2rem;
-        font-size: 2rem;
+        font-size: 1.5rem;
 
     }
     .pink-dash {
         display: none;
+    }
+    .rectangle-text-icons p {
+        font-size: 1rem;
     }
    }
 /* Footer */
