@@ -1,5 +1,7 @@
 ## Portfolio Website
-Build a portfolio site to share your projects, skills, as well as a separate contact page.
+Codecademy task: Build a portfolio site to share your projects, skills, as well as a separate contact page.
+
+*Click here to see my site:* [About Me](https://madelinepdx.github.io/about-me-portfolio-project/)
 
 **Project Objectives:**
 - Build a website using HTML, CSS
